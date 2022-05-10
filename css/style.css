@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px auto;
+}
+
+h1 {
+  color: white;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h3 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: black;
+}
+
+li {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+#navegar header {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 6px;
+}
+
+#navegar header #pesquisa button {
+  width: 50px;
+  border-radius: 10px;
+  background-color: #0A7CD8;
+  border: 1px solid gray;
+}
+
+/*-------divisao da navegacao da imagem do topo-------*/
+#topo {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagens/biblioteca.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 613px;
+  /* opacity: 0.4; */
+}
+
+#corpo {
+  height: 613px;
+}
