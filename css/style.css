@@ -14,8 +14,13 @@ h1 {
 }
 
 h3 {
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Bebas Neue', cursive;
   color: black;
+}
+
+h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: white;
 }
 
 li {
@@ -23,19 +28,17 @@ li {
   font-size: 20px;
 }
 
-#navegar header {
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 6px;
+#navegar #menu li a:hover {
+  color: red;
 }
 
-#navegar header #pesquisa button {
-  width: 50px;
-  border-radius: 10px;
-  background-color: #0A7CD8;
-  border: 1px solid gray;
+.nave {
+  box-shadow: 1px 2px #54542c;
+  text-align: center;
+}
+
+.nav-menu>li {
+  padding: 0 0 0 30px;
 }
 
 /*-------divisao da navegacao da imagem do topo-------*/
@@ -43,10 +46,45 @@ li {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagens/biblioteca.jpg);
   background-attachment: fixed;
   background-position: center;
-  height: 613px;
+  height: 670px;
   /* opacity: 0.4; */
 }
 
-#corpo {
-  height: 613px;
+#topo h1 {
+  text-align: center;
+  padding-top: 307.5px;
+  font-size: 60px;
 }
+
+#corpo {
+  height: 600px;
+}
+
+#corpo fieldset {
+  /* border: 1px solid red; */
+  max-width: 806px;
+  margin: 40px auto;
+  padding: 30px
+}
+
+#corpo fieldset form #send,
+#corpo fieldset form p {
+  margin-top: 20px;
+}
+
+#corpo fieldset form input {
+  padding-top: 0px;
+}
+
+/*adicionando media queries*/
+
+
+@media (max-width: 320px) {
+  #corpo fieldset form #arquivo {
+    max-width: 270px;
+  }
+}
+
+@media (min-width:321px) and (max-width: 375px) {}
+
+@media (min-width:376px) and (max-width: 1023px) {}
