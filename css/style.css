@@ -101,10 +101,6 @@ input:focus {
     max-width: 270px;
   }
 
-  /* #corpo fieldset {
-    max-width: 270px;
-  } */
-
   #corpo fieldset form input {
     padding-top: 0px;
     width: 250px;
@@ -118,7 +114,7 @@ input:focus {
 
   #corpo fieldset form input {
     padding-top: 0px;
-    width: 320px;
+    width: 250px;
   }
 }
 
