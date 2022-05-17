@@ -97,13 +97,13 @@ input:focus {
 
 
 @media (max-width: 320px) {
-  #corpo fieldset form #arquivo {
+  #corpo fieldset form {
     max-width: 270px;
   }
 
-  #corpo fieldset {
+  /* #corpo fieldset {
     max-width: 270px;
-  }
+  } */
 
   #corpo fieldset form input {
     padding-top: 0px;
@@ -112,17 +112,13 @@ input:focus {
 }
 
 @media (min-width:321px) and (max-width: 375px) {
-  #corpo fieldset form #arquivo {
-    max-width: 370px;
-  }
-
-  #corpo fieldset {
+  #corpo fieldset form {
     max-width: 370px;
   }
 
   #corpo fieldset form input {
     padding-top: 0px;
-    width: 250px;
+    width: 320px;
   }
 }
 
