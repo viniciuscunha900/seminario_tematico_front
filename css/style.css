@@ -101,6 +101,10 @@ input:focus {
     max-width: 270px;
   }
 
+  #corpo fieldset {
+    max-width: 270px;
+  }
+
   #corpo fieldset form input {
     padding-top: 0px;
     width: 250px;
@@ -109,6 +113,10 @@ input:focus {
 
 @media (min-width:321px) and (max-width: 375px) {
   #corpo fieldset form #arquivo {
+    max-width: 370px;
+  }
+
+  #corpo fieldset {
     max-width: 370px;
   }
 
