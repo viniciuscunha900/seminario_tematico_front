@@ -78,10 +78,30 @@ input:focus {
 /* #corpo fieldset form #titulo:active {
   border-Bottom: 1px solid red;
 } */
+hr {
+  width: 300px;
+
+}
+
+#corpo fieldset {
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#corpo fieldset form {
+  /* border: 1px solid green; */
+  /* width: 350px; */
+
+
+}
 
 #corpo fieldset form input {
   padding-top: 0px;
-  width: 400px;
+  width: 350px;
 }
 
 /* #corpo fieldset form .borda {
