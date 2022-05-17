@@ -8,6 +8,10 @@ body {
   margin: 0px auto;
 }
 
+.sub {
+  text-decoration: none;
+}
+
 h1 {
   color: white;
   font-family: 'Oleo Script Swash Caps', cursive;
@@ -28,9 +32,9 @@ li {
   font-size: 20px;
 }
 
-#navegar #menu li a:hover {
+/* #navegar #menu li a:hover {
   color: red;
-}
+} */
 
 .nave {
   box-shadow: 1px 2px #54542c;
@@ -47,7 +51,6 @@ li {
   background-attachment: fixed;
   background-position: center;
   height: 670px;
-  /* opacity: 0.4; */
 }
 
 #topo h1 {
@@ -67,28 +70,28 @@ li {
   padding: 30px
 }
 
-#corpo fieldset form #send,
+/* #corpo fieldset form #send,
 #corpo fieldset form p {
   margin-top: 20px;
-}
+} */
 
 input:focus {
   outline: 0;
 }
 
-#corpo fieldset form #titulo:active {
+/* #corpo fieldset form #titulo:active {
   border-Bottom: 1px solid red;
-}
+} */
 
 #corpo fieldset form input {
   padding-top: 0px;
   width: 500px;
 }
 
-#corpo fieldset form .borda {
+/* #corpo fieldset form .borda {
   border-bottom: 1px solid #212529;
   border: none;
-}
+} */
 
 /*adicionando media queries*/
 

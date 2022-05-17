@@ -22,36 +22,53 @@
   <div id="navegar">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark nave">
       <div class="container">
-        <a href="#" class="navbar-brand mx-auto">
-          <h2 class="display-3">Biblioteca Virtual</h2>
+        <a href="#" class="navbar-brand">
+          <h2>Biblioteca Virtual</h2>
         </a>
-        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">  
+           <span class="navbar-toggler-icon text-light"></span>
+         </button>
+    
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto text-light nav-menu">
+            <li class="nav-item">
+              <a href="#header" class="nav-link text-light font-weight-bold">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light font-weight-bold">Livros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light font-weight-bold">Adicionar Livros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light font-weight-bold">Editar Livros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light font-weight-bold">Excluir</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
-  <!-- <div id="topo">
+  <div id="topo">
     <h1>A Maior Biblioteca Online do Brasil</h1>
-  </div> -->
+  </div>
   <div id="corpo">
-    <fieldset class="mx-auto">
-      <h3 class="mt-5 align-middle">Login</h3>
+    <fieldset>
+      <h3>ADICIONAR LIVROS</h3>
       <HR></HR>
-      <form>
-        <div class="form-group">
-          <label>Endereço de email</label>
-          <input type="email" class="form-control mt-3" id="exampleInputEmail1" placeholder="Seu email">
-          <!-- <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
-        </div>
-        <div class="form-group mt-3">
-          <label for="exampleInputPassword1">Senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-        </div>
-        <div class="form-group form-check">
-          <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Clique em mim</label> -->
-        </div>
-        <button type="submit" class="btn btn-dark"><a href="home.html" class="text-white sub">Enviar</a></button>
-      </form>
+      <form action="">
+        <label for="">TITULO DO LIVRO</label>
+        <input class="form-control" type="text" placeholder="Digite o titulo do livro" aria-label="default input example">
+        <label for="" class="mt-3">AUTOR</label>
+        <input class="form-control" type="text" placeholder="Nome do autor" aria-label="default input example">
+        <label class="mt-3">DATA DE LANÇAMENTO DO LIVRO</label>
+        <input class="form-control" type="date" > 
+        <label class="mt-3">ARQUIVO</label><br>
+        <input class="form-control" type="file" id="formFile">        <br>
+        <button type="submit" class="btn btn-dark mb-3 mt-3">Enviar</button>      </form>
+
 
     </fieldset>
   </div>
