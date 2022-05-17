@@ -32,10 +32,6 @@ li {
   font-size: 20px;
 }
 
-/* #navegar #menu li a:hover {
-  color: red;
-} */
-
 .nave {
   box-shadow: 1px 2px #54542c;
   text-align: center;
@@ -85,7 +81,7 @@ input:focus {
 
 #corpo fieldset form input {
   padding-top: 0px;
-  width: 500px;
+  width: 400px;
 }
 
 /* #corpo fieldset form .borda {
