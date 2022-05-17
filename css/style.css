@@ -60,31 +60,20 @@ li {
 }
 
 #corpo fieldset {
-  /* border: 1px solid red; */
   max-width: 806px;
   margin: 40px auto;
   padding: 30px
 }
 
-/* #corpo fieldset form #send,
-#corpo fieldset form p {
-  margin-top: 20px;
-} */
-
 input:focus {
   outline: 0;
 }
 
-/* #corpo fieldset form #titulo:active {
-  border-Bottom: 1px solid red;
-} */
 hr {
   width: 300px;
-
 }
 
 #corpo fieldset {
-  /* border: 1px solid red; */
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -92,22 +81,10 @@ hr {
 
 }
 
-#corpo fieldset form {
-  /* border: 1px solid green; */
-  /* width: 350px; */
-
-
-}
-
 #corpo fieldset form input {
   padding-top: 0px;
   width: 350px;
 }
-
-/* #corpo fieldset form .borda {
-  border-bottom: 1px solid #212529;
-  border: none;
-} */
 
 /*adicionando media queries*/
 
