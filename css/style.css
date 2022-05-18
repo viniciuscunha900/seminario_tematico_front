@@ -86,13 +86,13 @@ hr {
   width: 350px;
 }
 
-#carouselExampleIndicators {
+#corpo #carouselExampleIndicators {
   /* border: 1px solid red; */
   width: 850px;
   margin: 10px auto;
 }
 
-#carouselExampleIndicators .carousel-inner img {
+#corpo #carouselExampleIndicators .carousel-inner img {
   width: 850px;
   height: 430px;
 }
@@ -110,13 +110,13 @@ hr {
     width: 250px;
   }
 
-  #carouselExampleIndicators {
+  #corpo #carouselExampleIndicators {
     /* border: 1px solid red; */
     width: 280px;
     margin: 10px auto;
   }
 
-  #carouselExampleIndicators .carousel-inner img {
+  #corpo #carouselExampleIndicators .carousel-inner img {
     max-width: 100%;
     height: auto;
   }
@@ -132,26 +132,26 @@ hr {
     width: 320px;
   }
 
-  #carouselExampleIndicators {
+  #corpo #carouselExampleIndicators {
     /* border: 1px solid red; */
     width: 350px;
     margin: 10px auto;
   }
 
-  #carouselExampleIndicators .carousel-inner img {
+  #corpo #carouselExampleIndicators .carousel-inner img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width:376px) and (max-width: 1023px) {
-  #carouselExampleIndicators {
+  #corpo #carouselExampleIndicators {
     /* border: 1px solid red; */
     width: 550px;
     margin: 10px auto;
   }
 
-  #carouselExampleIndicators .carousel-inner img {
+  #corpo #carouselExampleIndicators .carousel-inner img {
     max-width: 100%;
     height: auto;
   }
