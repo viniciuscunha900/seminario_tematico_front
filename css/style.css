@@ -112,7 +112,7 @@ hr {
 
   #carouselExampleIndicators {
     /* border: 1px solid red; */
-    width: 290px;
+    width: 280px;
     margin: 10px auto;
   }
 
@@ -121,8 +121,6 @@ hr {
     height: auto;
   }
 }
-
-
 
 @media (min-width:321px) and (max-width: 375px) {
   #corpo fieldset form {
@@ -136,7 +134,7 @@ hr {
 
   #carouselExampleIndicators {
     /* border: 1px solid red; */
-    width: 360px;
+    width: 350px;
     margin: 10px auto;
   }
 
