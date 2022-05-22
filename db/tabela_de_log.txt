@@ -1,0 +1,12 @@
+FONT: https://pt.stackoverflow.com/questions/83883/tabela-de-log-utilizando-mysql
+
+O MySQL não disponibiliza nada assim, até porque não é função dele dar soluções prontas para problemas específicos. Você terá que criar uma estrutura que atenda todas suas necessidade de log e fazer as atualizações na tabela de forma tradicional. As entradas do log são dados como quaisquer outros, não tem nada de especial nele.
+
+Nem vou me arriscar dar um modelo pronto porque eu não sei o que você precisa.
+
+Alguns irão dizer para usar uma tabela MyISAM por ser mais simples e rápida. Outros dirão para usar InnoDB por permitir melhor escalabilidade. Só você testando sua situação é que saberá qual é mais adequado. Tunar este DB é mais importante.
+
+O que eu posso te ajudar é te mostrar o TRIGGER que pode garantir a sempre escrever nesta tabela quando fizer alguma alteração em outras tabelas. Como o próprio nome indica com ele você cria os gatilhos em tabelas, então qualquer operação que foi engatilhada gerará uma outra query que atualizará a tabela de log.
+
+Outra coisa que pode te interessar é a implementação de temporal tables. Veja como simular no MySQL em resposta no DBA.SE e no SO.
+

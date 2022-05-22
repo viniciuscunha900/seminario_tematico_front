@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS livro_por_categoria;
+DROP TABLE IF EXISTS emprestimo_por_membro;
+DROP TABLE IF EXISTS emprestimo;
+DROP TABLE IF EXISTS membro;
+DROP TABLE IF EXISTS endereco;
+DROP TABLE IF EXISTS exemplar;
+DROP TABLE IF EXISTS livro;
+DROP TABLE IF EXISTS autor;
+DROP TABLE IF EXISTS editora;
+DROP TABLE IF EXISTS categoria;
+DROP VIEW IF EXISTS usuario_endereco;
+DROP TRIGGER IF EXISTS validar_cpf;

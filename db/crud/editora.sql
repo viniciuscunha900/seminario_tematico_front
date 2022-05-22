@@ -1,0 +1,14 @@
+# RECUPERAR EDITORA
+SELECT * FROM editora WHERE id = 1;
+
+# LISTA EDITORA
+SELECT * FROM editora;
+
+# CRIAR EDITORA
+INSERT INTO editora (nome) VALUES ("Editora 1");
+
+# ATULIZAR EDITORA
+UPDATE editora SET nome = "Editora top" WHERE id = 1;
+
+# DELETAR EDITORA
+DELETE FROM editora WHERE id = 1;
